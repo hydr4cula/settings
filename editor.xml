@@ -3,16 +3,6 @@
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
     <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
   </component>
-  <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="ffeb95" />
-      <option name="FONT_TYPE" value="2" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
-      <option name="FOREGROUND" value="ffeb95" />
-      <option name="FONT_TYPE" value="2" />
-    </pattern>
-  </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
   </component>
