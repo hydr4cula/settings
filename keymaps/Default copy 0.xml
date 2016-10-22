@@ -1,5 +1,7 @@
-<keymap version="1" name="Default copy" parent="$default">
-  <action id="CollapseAll" />
+<keymap version="1" name="Default copy 0" parent="$default">
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
@@ -9,7 +11,9 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
-  <action id="ExpandAll" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
