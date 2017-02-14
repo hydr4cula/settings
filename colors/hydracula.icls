@@ -1,14 +1,18 @@
 <scheme name="hydracula" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="LINE_SPACING" value="1.25" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_LIGATURES" value="true" />
-  <option name="EDITOR_FONT_NAME" value="InputMono" />
+  <option name="CONSOLE_FONT_NAME" value="InputMono" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_NAME" value="Operator Mono Book" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="444444" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
     <option name="BORDER_LINES_COLOR" value="" />
-    <option name="CARET_COLOR" value="f5f5f5" />
-    <option name="CARET_ROW_COLOR" value="2c2c36" />
+    <option name="CARET_COLOR" value="66ff99" />
+    <option name="CARET_ROW_COLOR" value="3a4462" />
     <option name="CONSOLE_BACKGROUND_KEY" value="212121" />
     <option name="DELETED_LINES_COLOR" value="f77669" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1c1c1c" />
@@ -32,18 +36,18 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="80cbc4" />
-    <option name="GUTTER_BACKGROUND" value="2c2c36" />
-    <option name="INDENT_GUIDE" value="6272a4" />
-    <option name="LINE_NUMBERS_COLOR" value="f5f5f5" />
+    <option name="GUTTER_BACKGROUND" value="1e1f29" />
+    <option name="INDENT_GUIDE" value="3a4462" />
+    <option name="LINE_NUMBERS_COLOR" value="66ff99" />
     <option name="METHOD_SEPARATORS_COLOR" value="303030" />
     <option name="MODIFIED_LINES_COLOR" value="d9f5dd" />
     <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="6272a4" />
-    <option name="SELECTED_INDENT_GUIDE" value="6272a4" />
+    <option name="SELECTED_INDENT_GUIDE" value="3a4462" />
     <option name="SELECTED_TEARLINE_COLOR" value="6272a4" />
-    <option name="SELECTION_BACKGROUND" value="9999ff" />
+    <option name="SELECTION_BACKGROUND" value="3a4462" />
     <option name="SELECTION_FOREGROUND" value="f5f5f5" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="3b3b3b" />
     <option name="TEARLINE_COLOR" value="6272a4" />
@@ -60,7 +64,7 @@
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="e889b5" />
+        <option name="EFFECT_COLOR" value="ff0066" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -387,8 +391,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="ff66cc" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="66ff99" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -409,7 +412,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="ffff" />
+        <option name="FOREGROUND" value="66ff99" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -419,30 +422,32 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="ff66cc" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="9999ff" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="6272a4" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="ff66cc" />
+        <option name="FOREGROUND" value="9999ff" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="6272a4" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
         <option name="FOREGROUND" value="6272a4" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
@@ -452,13 +457,13 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="ff66cc" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="66ff99" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="82b1ff" />
+        <option name="FOREGROUND" value="ffff" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -468,7 +473,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="ffff" />
+        <option name="FOREGROUND" value="66ff99" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -489,24 +494,24 @@
     </option>
     <option name="DEFAULT_LABEL">
       <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f5f5f5" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="66ff99" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="6272a4" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="f5f5f5" />
+        <option name="FOREGROUND" value="ffff" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
       <value>
         <option name="FOREGROUND" value="6272a4" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -517,7 +522,6 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="f5f5f5" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -548,16 +552,20 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="ff0066" />
+        <option name="FOREGROUND" value="ff66cc" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="f5f5f5" />
+        <option name="BACKGROUND" value="1e1f29" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="FOREGROUND" value="6272a4" />
-        <option name="BACKGROUND" value="212121" />
+        <option name="FOREGROUND" value="9999ff" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -671,33 +679,23 @@
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="66ff99" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="c3e887" />
-      </value>
-    </option>
-    <option name="HTML_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="505c63" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="ff66cc" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="92bdec" />
-      </value>
-    </option>
-    <option name="HTML_TAG">
-      <value>
-        <option name="FOREGROUND" value="6dc2b8" />
+        <option name="FOREGROUND" value="66ff99" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="ff5370" />
+        <option name="FOREGROUND" value="9999ff" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -732,6 +730,13 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="f5f5f5" />
+        <option name="BACKGROUND" value="1e1f29" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -1032,7 +1037,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="ff66cc" />
+        <option name="EFFECT_COLOR" value="66ff99" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1310,7 +1315,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="f5f5f5" />
-        <option name="BACKGROUND" value="212121" />
+        <option name="BACKGROUND" value="1e1f29" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
