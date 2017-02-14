@@ -3,16 +3,12 @@
     <property name="created">2017-02-14T15:25:21</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2016.3.4.0.0</property>
-    <property name="modified">2017-02-14T15:29:37</property>
+    <property name="modified">2017-02-14T15:33:46</property>
     <property name="originalScheme">hydracula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.25" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_LIGATURES" value="true" />
-  <option name="CONSOLE_FONT_NAME" value="InputMono" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_NAME" value="Operator Mono Book" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="444444" />
