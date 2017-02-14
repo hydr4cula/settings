@@ -3,7 +3,7 @@
     <property name="created">2017-02-14T15:25:21</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2016.3.4.0.0</property>
-    <property name="modified">2017-02-14T15:25:26</property>
+    <property name="modified">2017-02-14T15:29:37</property>
     <property name="originalScheme">hydracula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.25" />
@@ -67,8 +67,18 @@
         <option name="FOREGROUND" value="ffff" />
       </value>
     </option>
-    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="6272a4" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="6272a4" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="ff0066" />
@@ -124,11 +134,6 @@
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="252b39" />
-      </value>
-    </option>
-    <option name="CLASS_NAME_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="f5f5f5" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -459,7 +464,7 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="f5f5f5" />
+        <option name="FOREGROUND" value="66ff99" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -545,6 +550,11 @@
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
         <option name="FOREGROUND" value="ffff" />
+      </value>
+    </option>
+    <option name="DEFAULT_SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="66ff99" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -757,11 +767,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="INTERFACE_NAME_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ffff" />
-      </value>
-    </option>
     <option name="IVAR">
       <value>
         <option name="FOREGROUND" value="9373a5" />
@@ -775,6 +780,25 @@
     <option name="Instance property reference ID">
       <value>
         <option name="FOREGROUND" value="1a1f29" />
+      </value>
+    </option>
+    <option name="JAVA_DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6272a4" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JAVA_DOC_MARKUP">
+      <value>
+        <option name="FOREGROUND" value="6272a4" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JAVA_DOC_TAG">
+      <value>
+        <option name="FOREGROUND" value="9999ff" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="JAVA_KEYWORD">
